@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocxStenography", "DocxStenography\DocxStenography.csproj", "{ABED6EEB-8479-4D02-85CB-416B7C9E8DD7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocxSteganography", "DocxSteganography\DocxSteganography.csproj", "{ABED6EEB-8479-4D02-85CB-416B7C9E8DD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -14,13 +14,13 @@
 
   <ItemGroup>
     <ContentWithTargetPath Include="Files/doc.docx">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>doc.docx</TargetPath>
     </ContentWithTargetPath>
     <None Include="Files/doc.docx" />
 
     <ContentWithTargetPath Include="Files/text.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <TargetPath>text.txt</TargetPath>
     </ContentWithTargetPath>
     <None Include="Files/text.txt" />

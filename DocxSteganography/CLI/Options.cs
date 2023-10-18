@@ -1,6 +1,6 @@
 ﻿using CommandLine;
 
-namespace DocxStenography.CLI;
+namespace DocxSteganography.CLI;
 
 public class Options
 {

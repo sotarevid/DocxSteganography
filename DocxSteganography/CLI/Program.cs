@@ -4,9 +4,9 @@ using System.IO;
 using System.Text.RegularExpressions;
 using CommandLine;
 using DocumentFormat.OpenXml.Packaging;
-using DocxStenography.Core;
+using DocxSteganography.Core;
 
-namespace DocxStenography.CLI;
+namespace DocxSteganography.CLI;
 
 public static class Program
 {
@@ -23,7 +23,7 @@ public static class Program
         
         using var document = WordprocessingDocument.Open(options.PathToDocx, true);
         
-        return new Stenographer(options.Debug)
+        return new Steganographer(options.Debug)
             .HideMessage(message, document)
             .OnError(r => Console.WriteLine(r.Error));
     }

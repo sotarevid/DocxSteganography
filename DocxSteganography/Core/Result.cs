@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DocxStenography.Core;
+namespace DocxSteganography.Core;
 
 public class Result
 {
